@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+}
+
+@media(min-width:992px)
+{
+	section{
+		background-color: grey;
+		float:left;
+		width:32%;
+		margin-left: 1%;
+	}
+}
+
+@media(min-width:768px) and (max-width: 991px)
+{
+	section.a ,section.b{
+		background-color: grey;
+		float:left;
+		width:48.50%;
+		margin-left: 1%;
+		margin-bottom: 1%;
+	}
+	section.c{
+		background-color: grey;
+		float:left;
+		width:98%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+}
+
+@media(max-width: 767px)
+{
+section.a ,section.b ,section.c{
+		background-color: grey;
+		float: left;
+		width:100%;
+		margin-bottom: 1%;
+		
+
+	}
+}
+
+
+
+	
+
+section{
+	position:relative;
+	padding:0px;
+	border:1px solid black;
+	
+}
+p{  font-family: serif;
+	font-style: oblique;
+	padding: 15px;
+	margin:25px;
+	font-size: 20px;
+}
+h2.aa{
+	background-color:lightpink;
+	position:absolute;
+	right:0px;
+	top:0px;
+	margin:0px;
+    padding:0px;
+    border:1px solid black;
+    font-size: 105%;
+    width:33%;
+    text-align: center;
+}
+h2.bb{
+	background-color:maroon;
+	position:absolute;
+	right:0px;
+	top:0;
+	margin:0px;
+    padding:0px;
+    border:1px solid black;
+    font-size: 105%;
+    width:33%;
+    text-align: center;
+    color:white;
+    }
+
+h2.cc{
+	background-color:yellow;
+	position:absolute;
+	right:0px;
+	top:0;
+	margin:0px;
+    padding:0px;
+    border:1px solid black;
+    font-size: 105%;
+    width:33%;
+    text-align: center;
+
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 150%;
+}
